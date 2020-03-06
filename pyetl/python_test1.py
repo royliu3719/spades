@@ -1,0 +1,1 @@
+Func = lambda n: 1 if n <= 2 else Func(n-1) + Func(n-2)
